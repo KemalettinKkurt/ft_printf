@@ -1,36 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   printf.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kkocakur <kkocakur@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/15 04:05:44 by kkocakur          #+#    #+#             */
-/*   Updated: 2025/07/17 16:46:10 by kkocakur         ###   ########.fr       */
+/*   Created: 2025/07/17 16:02:26 by kkocakur          #+#    #+#             */
+/*   Updated: 2025/07/17 16:03:17 by kkocakur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
-int	ft_strlen(int a)
+int	ft_printf(const char *format, ...)
 {
-	int	i;
-	i = 0;
-	if (a < 0)
-	{
-		a = -a;
-		i = 1;
-	}
-	
-	if(a == 0)
-		return 1;
-
-	
-	while (a > 0)
-	{
-		a = a / 10;
-		i++;
-	}
-		
-	return (i);
+    
 }
